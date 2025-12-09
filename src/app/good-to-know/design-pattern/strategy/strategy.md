@@ -1,3 +1,12 @@
+🔹 Strategy (cum vrei tu, pe scurt):
+
+Strategy = același lucru de făcut, dar cu mai multe variante de comportament, toate având aceeași interfață, și tu alegi la runtime care variantă (strategie) să folosești.
+
+Și încă mai scurt, de ținut minte:
+
+Strategy = schimb comportamentul, nu codul care îl folosește.
+Am o interfață comună și mai multe implementări, și în funcție de context aleg una dintre ele.
+
 Strategy pattern este un behavioral design pattern care:
 
 definește o interfață comună pentru o familie de algoritmi / comportamente,
@@ -19,3 +28,5 @@ ai o interfață comună (ex. PricingStrategy { calculate(...) }),
 ai mai multe clase care o implementează (standard, discount, premium),
 
 codul care o folosește (componentă/serviciu) nu știe care variantă e în spate, doar cheamă strategy.calculate(...).
+
+
